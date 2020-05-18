@@ -1,3 +1,6 @@
 <h1>So what was your questions again?</h1>
 <h1>Question: <%= params[:question] %></h1>
 <h1><%= @answer %></h1>
+<a href="/ask">Ask again</a>
+<br>
+<%= link_to "Ask again using link_to", ask_path%>
